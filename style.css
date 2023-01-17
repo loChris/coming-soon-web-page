@@ -1,0 +1,12 @@
+body, html {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #F2F2F2;
+}
+
+.header-logo {
+  display: block;
+  margin: 18px auto;
+  width: 71px;
+  height: 48px;
+}
