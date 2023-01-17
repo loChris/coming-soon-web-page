@@ -1,8 +1,23 @@
+@font-face {
+  font-family: 'AdiHaus';
+  src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AdiHaus";
+  src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body, html {
   min-width: 100%;
   min-height: 100vh;
   margin: 0;
   background-color: #F2F2F2;
+  font-family: "AdiHaus", sans-serif;
 }
 
 .header-logo {
@@ -17,4 +32,39 @@ body, html {
   background-size: cover;
   width: 100%;
   height: 200px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  word-spacing: 100vw;
+}
+
+.thin-red-text {
+  display: block;
+  font-weight: 400;
+  line-height: 42px;
+  color: #CD4A24;
+  margin-bottom: 10px;
+}
+
+.hello-shopper-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0 32px;
 }
