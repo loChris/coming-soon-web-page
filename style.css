@@ -35,36 +35,36 @@ body, html {
 }
 
 .main {
+  padding: 20px 30px;
+}
+
+.text-content-container {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
-.hero-text {
-  margin: 30px 0;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 50px;
-  letter-spacing: 5px;
-  word-spacing: 100vw;
-}
-
-.thin-red-text {
-  display: block;
-  font-weight: 400;
-  line-height: 42px;
-  color: #CD4A24;
-  margin-bottom: 10px;
-}
-
-.hello-shopper-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 28px;
+h2, p {
   margin: 0;
-  padding: 0 32px;
+  font-family: "AdiHaus", sans-serif;
+}
+
+p {
+  line-height: 28px;
+  margin-top: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+h2.red {
+  color: #cd3a24;
+  font-weight: 400;
+}
+
+h2.gray {
+  color: #423a3a; 
 }
