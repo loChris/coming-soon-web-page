@@ -39,12 +39,18 @@ html {
 }
 
 .main {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.outer-container {
   padding: 20px 30px;
 }
 
 .text-content-container {
   width: 100%;
   text-align: center;
+  margin-top: 20px;
 }
 
 h2,
