@@ -23,6 +23,10 @@ html {
   font-family: 'AdiHaus', sans-serif;
 }
 
+body {
+  display: flex;
+}
+
 .header-logo {
   display: block;
   margin: 18px auto;
@@ -30,7 +34,7 @@ html {
   height: 48px;
 }
 
-.hero-img {
+.hero-img-mobile {
   background: url('https://assets.codepen.io/6060109/athlete-girl.png')
     no-repeat right top;
   background-size: cover;
@@ -106,4 +110,44 @@ input.button-input {
   width: 64px;
   background-color: #333;
   color: #fff;
+}
+
+.desktop-image {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: url('https://assets.codepen.io/6060109/destop-bg.png');
+    background-size: cover;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  .main {
+    width: 50%;
+  }
+
+  .header-logo {
+    display: block;
+    margin: 30px 30px 100px;
+  }
+
+  .text-content-container {
+    text-align: left;
+  }
+
+  .hero-img-mobile {
+    display: none;
+  }
+
+  .desktop-img {
+    display: block;
+    width: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+    background: url('https://assets.codepen.io/6060109/athlete-big.png');
+    background-size: cover;
+  }
 }
